@@ -61,7 +61,7 @@ Ez fogja kiszámolni a napi gázfogyasztást forintban.
 Figyelembe vesszük a havi kereteket, amely meghatározza, hogy ha a keret alatt maradunk, akkor rezsicsökkentett áron, ha azt túllépjük, akkor piaci áron kapjuk a gázt. Továbbá a havidíj elosztása is itt történik. Ezt úgy tudjuk megtenni, hogy a havi alapdíjat felszorozzuk egy évre, majd visszaosztjuk egy napra figyelembe véve a szökőévet is.
 
 Sajnos az így kapott napi árat a HA Energy Dashboard-ja még mindig nem eszi meg, így ismételten létre kell hozzunk egy új segédentitást, azaz egy közüzemi fogyasztásmérőt.
-Névnek adjuk meg a 'Napi gáz költség HUF', forrés szenzornak a 'sensor.napi_gaz_koltség'-et, nullázási ciklust állítsuk Naponta-ra.
+Névnek adjuk meg a 'Napi gáz költség HUF', forrás szenzornak a 'sensor.napi_gaz_koltség'-et, nullázási ciklust állítsuk Naponta-ra.
 Az így létrejövő szenzort már meg tudjuk adni az Energy Dashbord beállításaiban a 'A teljes költséget nyomon követő entitás használata' opciónál.
 
 A fenti közüzemi fogyasztásmérőt természetesen havi nullázással is létre hozhatjuk, így a havi költség külön entitásként előáll. Ez nem alkalmas az Energy Dashboard-hoz!
