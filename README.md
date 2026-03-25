@@ -1,5 +1,5 @@
 # MVM Next gas cost for HA
-Gázköltség számítása MVM Next szolgáltatónál Homa Assistant használata eseén
+Gázköltség számítása MVM Next szolgáltatónál Homa Assistant használata esetén
 
 Tételezzük fel, hogy a gázóra impulzusait már számoljuk és már előállt a "virtuális gázóránk".
 Tételezzük fel, hogy a gázóra 'sensor.gaz_meter' néven van jelen. Hozzunk létre egy template szenzort. Ez nálam egy template.yaml fájlban van, amit a configuration.yaml fájl include részén a 'template: !include templates.yaml' -tel tudjuk behívni a HA indulásakor.
